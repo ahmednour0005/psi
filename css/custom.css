@@ -1,0 +1,337 @@
+/**************************************************************************************************/
+/**************************************    Install Font   *****************************************/
+/**************************************************************************************************/
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../font/static/Inter-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../font/static/Inter-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/static/Inter-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/static/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/static/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../font/static/Inter-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/static/Inter-Black.ttf') format('truetype');
+}
+
+/**************************************************************************************************/
+/**************************************    Global Style  ******************************************/
+/**************************************************************************************************/
+
+body {
+    font-family: "Inter", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+button,
+input,
+textarea,
+p,
+strong,
+sub,
+sup {
+    font-family: "Inter", sans-serif !important;
+}
+
+.header-logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.header-nav-feature .header-nav-features-toggle i {
+    font-size: 17px !important;
+}
+
+.main .owl-item h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main .owl-item .header-btn a {
+    padding: 12px 15px;
+}
+
+.main .owl-dots .owl-dot {
+    border: 1px solid #FFF;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    border-radius: 50%;
+    margin: 3px;
+
+}
+
+.main .owl-dots .owl-dot span {
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+
+
+.custom-shape-divider-top-1709917662 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    position: relative;
+    z-index: 999;
+    margin-top: -90px;
+}
+
+.custom-shape-divider-top-1709917662 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 46px;
+}
+
+.custom-shape-divider-top-1709917662 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.section .small-title {
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    color: #212529c2 !important;
+    line-height: 35px;
+    margin-top: 15px;
+
+}
+
+.bg-grey {
+    background: #f9f9f9 !important;
+}
+
+.section.finding .links img {
+    object-fit: contain;
+}
+
+.section.finding .links h4 {
+    color: #212529c2 !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
+
+.section.finding .links .card {
+    border: 1px solid #dddddd6b !important;
+}
+
+#header .header-top {
+    background: #e02b20;
+    color: #FFF;
+    height: 35px !important;
+    min-height: 35px !important;
+}
+
+.custom-bg-grey-1 {
+    position: relative;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    background: #393f44 !important;
+
+}
+
+.custom-page-header-1 {
+    padding: 0 7vw !important;
+}
+
+.page-header {
+    margin-bottom: 70px !important;
+}
+
+.custom-page-header-1.page-header .container:before {
+    height: 0 !important;
+}
+
+.custom-page-header-1.page-header h1 {
+    letter-spacing: 1px !important;
+}
+
+.custom-page-header-1.page-header p {
+    color: #FFF;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.social .nav .nav-item a {
+    margin: 0 10px;
+    background: #393f44;
+    color: #FFF !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.footer-social .nav .nav-item a {
+    margin: 10px 11px;
+    border: 1px solid #FFF;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer-links p::before {
+    content: "\f35a";
+    /* Unicode for right arrow */
+    font-family: "FontAwesome";
+    /* Replace "Font Awesome" with your arrow font */
+    margin-right: 5px;
+    /* Adjust spacing between the arrow and text */
+}
+
+.footer-links p:hover::before {
+    color: #FFF;
+    /* Color of the arrow icon on hover */
+}
+
+#footer .map {
+    width: 100%;
+    height: 200px;
+}
+
+#footer .map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#footer .footer-copyright p {
+    color: #FFF;
+}
+
+#header .header-nav-features .header-nav-features-cart .header-nav-features-dropdown {
+    padding: 5px;
+    min-width: 120px;
+}
+
+#header .header-nav-features .header-nav-features-cart .header-nav-features-dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+
+#header .header-nav-features .header-nav-features-cart .header-nav-features-dropdown li {
+    list-style: none;
+}
+
+#header .header-nav-features .header-nav-features-cart .header-nav-features-dropdown li a {
+    text-decoration: none;
+    padding: 2px 10px;
+    width: 100%;
+    display: block;
+    color: #393f44;
+}
+
+#header .header-nav-features .header-nav-features-cart .header-nav-features-dropdown li a:hover {
+    background: #dddddd6b;
+}
+
+#header .header-nav-features .header-nav-features-dropdown {
+    margin-top: 40px !important;
+}
+
+#header .header-nav.header-nav-links nav>ul:not(:hover)>li>a.active {
+    color: #e36159;
+}
+
+#header .header-nav.header-nav-links nav>ul li:hover>a {
+    color: #e36159;
+}
+
+.about-image {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+
+@media (max-width: 570px) {
+    .about-image {
+        width: 225px;
+        height: 225px;
+    }
+    .custom-page-header-1.page-header p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-image {
+        width: 165px;
+        height: 165px;
+    }
+}
+
+@media (max-width: 992px) {
+    .funded-program {
+        flex-direction: column-reverse;
+    }
+
+    .funded-program .image-section {
+        margin: 15px 0;  
+    }
+    #header .header-nav-features .header-nav-features-dropdown.show {
+        top: 0px;
+    }
+}
