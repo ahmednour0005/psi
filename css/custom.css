@@ -305,23 +305,47 @@ sup {
     object-fit: cover;
 }
 
+.about-image.apply-image {
+    width: 370px;
+    height: 600px;
+    object-fit: cover;
+}
+
 @media (max-width: 570px) {
     .about-image {
         width: 225px;
         height: 225px;
     }
+    .about-image.apply-image {
+        width: 300px;
+        height: 300px;
+    }
     .custom-page-header-1.page-header p {
         font-size: 17px;
         line-height: 32px;
     }
+    .image-section.apply-image{
+        height: 310px !important; 
+    }
 }
+
 
 @media (max-width: 400px) {
     .about-image {
         width: 165px;
         height: 165px;
     }
+    .about-image.apply-image {
+        width: 220px;
+        height: 220px;
+    }
+    .image-section.apply-image{
+        height: 310px !important; 
+    }
 }
+
+
+
 
 @media (max-width: 992px) {
     .funded-program {
@@ -335,3 +359,193 @@ sup {
         top: 0px;
     }
 }
+
+
+
+
+
+/**************************************************************************************************/
+/***************************************    Application  ******************************************/
+/**************************************************************************************************/
+
+
+.application .application-form h2 {
+    color: #393f44;
+    font-weight: 700;
+    margin: 0;
+}
+
+.application .application-form p {
+    color: #7d8c9c;
+    margin-bottom: 20px;
+}
+
+.application .image-sec img {
+    height: 1200px;
+    object-fit: cover;
+}
+
+.application .application-form input {
+    height: 45px;
+    border: 1px solid #eaecef;
+
+}
+
+.application .application-form textarea {
+    height: 110px;
+    border: 1px solid #eaecef;
+}
+
+.application .application-form input::placeholder,
+.application .application-form textarea::placeholder {
+    color: #7f8f9f;
+}
+
+.application .select2.select2-container.select2-container--default.select2-container--open .select2-selection--single {
+    border: 1px solid #e02b20;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #e02b20 !important;
+}
+
+.application .application-form input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.select2-container.select2-container--default.select2-container--open .select2-search__field:focus-visible {
+    outline: 0 !important;
+}
+
+.application .application-form textarea:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.application .application-form input:focus {
+    border: 1px solid #e02b20;
+}
+
+.application .application-form textarea:focus {
+    border: 1px solid #e02b20;
+}
+
+.application .application-form button {
+    width: 100%;
+}
+
+.application .application-form button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.application .et_pb_contact_form_label {
+    display: block;
+    color: #8c9095;
+    font-size: 12px;
+    padding: 5px;
+    width: 80%;
+}
+
+.application input[id="et_pb_contact_brand_file_request_0"] {
+    display: none;
+}
+
+.application .upload-file {
+    border: 1px solid #eaecef;
+    background: #FFF;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.application label[for="et_pb_contact_brand_file_request_0"]:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #202020;
+    font-weight: 400;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.application label[for="et_pb_contact_brand_file_request_0"]:after {
+    display: block;
+    content: 'Upload';
+    background: #e02b20;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.application label[for="et_pb_contact_brand_request_0"]:after {
+    content: " (Provide link or Upload files if you already have guidelines)";
+    font-size: 12px;
+    letter-spacing: -0.31px;
+    color: #7a7a7a;
+    font-weight: normal;
+}
+
+.application label[for="et_pb_contact_design_request_0"]:after {
+    content: " (Provide link or Upload design files)";
+    font-size: 12px;
+    letter-spacing: -0.31px;
+    color: #7a7a7a;
+    font-weight: normal;
+}
+
+
+.application .file_names {
+    display: block;
+    position: absolute;
+    color: black;
+    bottom: -20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.application .file_names {
+    text-align: center;
+}
+
+.application .select2-container--default .select2-selection--single {
+    height: 45px;
+    border: 1px solid #eaecef;
+}
+
+.application .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 45px;
+    color: #7f8f9f;
+}
+
+.application .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 10px;
+}
+
+.application .select-date label {
+    position: absolute;
+    background: #FFF;
+    height: 45px;
+    border: 1px solid #eaecef;
+    padding: 9px 7px;
+    color: #7f8f9f;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
